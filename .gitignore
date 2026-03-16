@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 日志文件
+*.log
+api_server*.log
+server*.log
+crawler.log
+
+# 运行时数据
+schedules.json
+
+# 爬取结果（可保留示例文件）
+api_results/*.json
+api_results/*.csv
+!api_results/.gitkeep
+
+# 测试结果
+test_result/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 环境文件
+.env
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
